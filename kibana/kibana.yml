@@ -1,0 +1,6 @@
+server.name: kibana # setting the name of our Kibana server
+server.host: 0.0.0.0 # making kibana accessible to all IPs on the host machine
+elasticsearch.hosts: [ "http://elasticsearch:9200" ] # allows communication from Kibana to Elasticsearch.
+elasticsearch.username: "kibana"
+elasticsearch.password: "EvfqaGzfy9r0UcF7RaZ9"
+xpack.security.encryptionKey: "a1s58e64a8srg84sdt8r6u8t8rweqweq9f6sd5gs" # learn more here: https://www.elastic.co/guide/en/kibana/7.6/security-settings-kb.html
