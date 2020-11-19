@@ -1,0 +1,31 @@
+- pipeline.id : pipelineFinanzas
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\cajaGrandeLogstash.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelineCarnets
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\entregasCarnets.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelineReclamos
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\reclamosDocentes.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelinePenias
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\controlPenias.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelineJuntaEjecutiva
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\juntaEjecutiva.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelineIntegrantes
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\integrantes.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelineReuniones
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\reuniones.conf"
+  pipeline.workers : 1
+
+- pipeline.id : pipelineCapacitaciones
+  path.config : "C:\\Users\\Casa\\logstash-7.5.1\\config\\archivosConfiguracion\\capacitaciones.conf"
+  pipeline.workers : 1
