@@ -1,5 +1,6 @@
 server.name: kibana # setting the name of our Kibana server
 server.host: 0.0.0.0 # making kibana accessible to all IPs on the host machine
+server.defaultRoute: /app/kibana#/dashboard/983bdca0-e802-11ea-b010-3972cce397cb
 elasticsearch.hosts: [ "http://elasticsearch:9200" ] # allows communication from Kibana to Elasticsearch.
 elasticsearch.username: "kibana"
 elasticsearch.password: "EvfqaGzfy9r0UcF7RaZ9"
