@@ -5,3 +5,4 @@ elasticsearch.hosts: [ "http://elasticsearch:9200" ] # allows communication from
 elasticsearch.username: "kibana"
 elasticsearch.password: "EvfqaGzfy9r0UcF7RaZ9"
 xpack.security.encryptionKey: "a1s58e64a8srg84sdt8r6u8t8rweqweq9f6sd5gs" # learn more here: https://www.elastic.co/guide/en/kibana/7.6/security-settings-kb.html
+kibana.defaultAppId: "dashboard/983bdca0-e802-11ea-b010-3972cce397cb"
